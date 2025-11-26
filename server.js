@@ -17,7 +17,7 @@ const CONFIG = {
     MONGODB_URI: "mongodb+srv://schoolchat_user:tukubhuyan123@cluster0.i386mxq.mongodb.net/?retryWrites=true&w=majority",
     
     // Telegram Bot
-    BOT_TOKEN: "8170582086:AAEb5LIj1flmUeeBlYQZaNm81lxufzA3Zyo",
+    BOT_TOKEN: "7686607534:AAGWXdvYh9WF9qQT7uwff9ucle_pWSSW3R8",
     ADMIN_CHAT_ID: "6142816761",
     
     // Admin Security - FIXED: Generate hash for "admin123"
