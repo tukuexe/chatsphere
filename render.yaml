@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: fourr-chat-v3
+    env: node
+    plan: free
+    region: ohio
+    branch: main
+    
+    buildCommand: npm install
+    startCommand: node server.js
+    
+    healthCheckPath: /health
+    autoDeploy: true
+    
+    envVars:
+      - key: NODE_ENV
+        value: production
+    
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
